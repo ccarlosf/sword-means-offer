@@ -1,4 +1,4 @@
-package com.ccarlos.swordmeansoffer.socket;
+package com.ccarlos.swordmeansoffer.socket.tcp;
 
 import java.net.ServerSocket;
 import java.net.Socket;

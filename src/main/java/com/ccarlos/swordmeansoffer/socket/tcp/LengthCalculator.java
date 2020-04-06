@@ -1,4 +1,4 @@
-package com.ccarlos.swordmeansoffer.socket;
+package com.ccarlos.swordmeansoffer.socket.tcp;
 
 import java.io.IOException;
 import java.io.InputStream;
