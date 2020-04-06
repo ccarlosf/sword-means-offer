@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 
 public class ReflectSample {
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException, InvocationTargetException, NoSuchMethodException, NoSuchFieldException {
-        Class rc = Class.forName("com.interview.javabasic.reflect.Robot");
+        Class rc = Class.forName("com.ccarlos.swordmeansoffer.reflect.Robot");
         Robot r = (Robot) rc.newInstance();
         System.out.println("Class name is " + rc.getName());
         Method getHello = rc.getDeclaredMethod("throwHello", String.class);
